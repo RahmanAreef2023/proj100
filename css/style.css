@@ -1,0 +1,773 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+body{height:8000px ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Start Header */
+.container1{
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    top: 0%;
+    position: fixed;
+    overflow: auto;
+opacity: 0.9;
+z-index: 5;
+}
+.img1{ width: 130px;
+height: 60px;
+margin-left:50px ; 
+float: left;
+}
+.ul1{
+    list-style: none;
+    float: right;
+   margin-right: 50px;
+  margin-top: 15;
+}
+.ul1 li{ 
+  display: inline-block;
+  margin-left: 15px;
+}
+.ul1 li a{ text-decoration: none;
+  color: rgb(6, 6, 119);
+}
+/* End Header */
+
+/* Start Section1 */
+.container2{
+width: 100%;
+height: 100vh;
+background-image: url(../imges/photo-1592365474263-c450b19c305f.webp);
+background-position: center;
+background-size: cover;
+position: relative;
+
+}
+.overlay{ 
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0%;
+left: 0%;
+background-color: rgba(0, 0, 0, 0.8);
+}
+.divsection1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.h2section1{
+  color: aliceblue;
+  font-size:30;
+text-transform: uppercase;
+}
+.psection1{
+  color: aliceblue;
+text-transform: capitalize;
+}
+.btn1section1{ 
+ font-size: 35;
+ border-radius: 10px;
+width: 240;
+height: 60;
+}
+.btn2section1{
+  font-size: 35;
+ background-color: gray;
+ color: rgb(6, 6, 119);
+ border-radius: 10px ;
+ width: 240;
+ height: 60;
+}
+/* End Section1 */
+/* Start section2 */
+.container3{
+  width: 80%;
+  margin: auto;
+}
+.h2section2{
+  margin-top: 50;
+  margin-left: 38%;
+text-transform: capitalize;
+font-size: 30;
+}
+.div1section2{
+  width: 210;
+  height: 5;
+  background-color: blue; 
+  margin-top: 13;
+  margin-left: 44%;
+} 
+.parentsection2{
+overflow: auto;
+}
+.divsection2{
+  float: left;
+  margin-top: 100;
+  border: solid 0.5px;
+display: block;
+width: 30%;
+height: 250;
+text-align: center;
+position: relative;
+}
+
+.mg-section2{
+margin-left: 5%;
+margin-right: 5%;
+}
+.h2section21{
+padding-top: 15;
+text-transform: capitalize;
+}
+.psection2{
+  padding: 15 15;
+}
+.h4section2{
+color: blue;
+text-decoration: underline;
+text-transform: capitalize;
+padding-bottom: 15;
+}
+.isection2{
+  padding-top:15 ;
+  font-size:20 ;
+  color: blue;
+}
+.divsection2::after{
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0;
+}
+.divsection2:hover::after{
+  width: 100%;
+  height: 100%;
+opacity: 0.8;
+transition: 0.8s;
+}
+.ab-section2{
+  padding-top: 20;
+}
+
+/* Start Section2 */
+/* Start section3 */
+.container4{
+  width: 80%;
+  margin: auto;
+}
+.h2-section3{
+  margin-top: 50;
+  margin-left: 40%;
+text-transform: capitalize;
+font-size: 30;
+}
+.div1section3{
+  width: 185;
+  height: 5;
+  background-color: blue; 
+  margin-top: 13;
+  margin-left: 43%;
+} 
+.parent-section3{
+overflow: auto;
+}
+.div2section3{
+  display: block;
+  float: left;
+  width: 30%;
+  margin-top: 100;
+  text-align: center;
+  position: relative;
+}
+.img-section3{
+  background-position: center;
+  width: 100%;
+  margin: auto;
+  height:300 ;
+} 
+.div3section3{
+position: absolute;
+top: 0;
+left: 0;
+padding-top: 100;
+visibility: hidden;
+}
+.ab-section3{
+ margin-left:5% ;
+ margin-right:5% ;
+}
+.h4-section3{
+color: blue;
+text-transform:uppercase;
+}
+.p-section3{
+  color: white;
+  text-transform: capitalize;
+  width: 96%;
+  padding: 10 0;
+}
+.i-section3{
+  font-size:20;
+  color: blue;
+}
+.div2section3::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0;
+}
+.div2section3:hover .div3section3{
+  visibility: visible;
+}
+.div2section3:hover::after{
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  transition: 0.8s;
+}
+/* End section3 */
+/* Start Section4 */
+
+.container5{
+  width: 80%;
+  margin: auto;
+}
+.h2-section4{
+  margin-top: 50;
+  margin-left: 40%;
+text-transform: capitalize;
+font-size: 30;
+}
+.div1-section4{
+  width: 185;
+  height: 5;
+  background-color: blue; 
+  margin-top: 13;
+  margin-left: 43%;
+} 
+.parent-section4{
+overflow: auto;
+}
+.div2-section4{
+  display: block;
+  float: left;
+  width: 30%;
+  margin-top: 100;
+  text-align: center;
+  position: relative;
+  border: solid 0.5px;
+display: block;
+width: 30%;
+height: 350;
+position: relative;
+}
+.ab-section4{
+  margin-left:5% ;
+  margin-right:5% ;
+ }
+
+ .div2-section4::after{
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0;
+}
+.div2-section4:hover::after{
+  width: 100%;
+  height: 100%;
+opacity: 0.8;
+transition: 0.8s;
+}
+.i-section4{
+  padding-top:15 ;
+  font-size:20 ;
+  color: blue;
+}
+.h3-section4{
+padding-top: 15;
+font-size: 20;
+text-transform: uppercase;
+}
+.p-section4{
+padding-top: 15;
+}
+
+.h4-section4{
+padding-top: 20;
+color: blue;
+text-decoration: underline;
+text-transform: capitalize;
+} 
+.mg-section4,.fg-section4{
+  padding-top: 60;
+}
+.md-section4{
+  padding-top: 66;
+}
+.fd-section4{
+  padding-top: 110;
+}
+/* End section4 */
+/* Start Section5 */
+.h2-section5{
+  margin-top: 50;
+  margin-left: 40%;
+text-transform: capitalize;
+font-size: 30;
+}
+.div1-section5{
+  width: 185;
+  height: 5;
+  background-color: blue; 
+  margin-top: 13;
+  margin-left: 42%;
+} 
+.parent-section5{
+overflow: auto;
+}
+.div-3-section5{
+  margin-top:130 ;
+width: 700;
+height: 650;
+float: right;
+background-image: url(../imges/ford-truck-6872831_1280.jpg);
+background-position: bottom;
+background-size: cover;
+}
+.p-section5{
+padding-top: 280;
+width:500 ;
+padding-left: 5;
+opacity: 0.8;
+}
+.ol-section5{
+padding-top: 80;
+padding-left:30 ;
+list-style: none;
+}
+.i-section5{
+  color: blue;
+  font-size: 20;
+}
+.li-section5{
+  display: inline-block;
+line-height: 2.5;
+text-transform: capitalize;
+opacity: 0.8;
+color: rgb(63, 63, 69);
+}
+/* End section5 */
+/* Start Section6 */
+
+.div1-section6{
+  width: 70%;
+  margin: auto;
+  margin-top: 180;
+  height: 400;
+}
+.div2-section6{
+  display: inline-block;
+  text-align: center;
+padding-top: 150;
+padding-left: 5;
+
+}
+.div-section6{
+  width: 100%;
+  height: 400;
+background-image: url(../imges/route-66-desert-with-scenic-sky-classic-vintage-image-with-nobody-frame_521059-5790.webp);
+}
+.overley-section6{
+  background-color: black;
+  opacity: 0.7;
+}
+.ab-section6{
+  margin-left: 18%;
+}
+.i-section6{
+  font-size: 30;
+  color: blue;
+}
+.h4-section6{
+  padding-top: 15;
+  font-size: 18;
+  color: gray;
+  text-transform: uppercase;
+}
+.p-section6{
+  padding-top: 15;
+  color: gray;
+  text-transform: capitalize;
+}
+.h2-section6{
+  padding-top: 150;
+    margin-top: 50;
+    margin-left: 43%;
+  text-transform: capitalize;
+  font-size: 30;
+}
+.div4-section6{
+  width: 189;
+    height: 5;
+    background-color: blue; 
+    margin-top: 13;
+    margin-left: 44.5%;
+}
+.container7{
+  width: 80%;
+  margin: auto;
+}
+.parent1-section6{
+  background-color: white;
+overflow: auto;
+}
+.div5-section6{
+  margin-top: 100;
+  float: left;
+  border: solid 0.5px;
+display: block;
+width: 30%;
+height: 400;
+text-align: center;
+position: relative;
+}
+.mg-section6{
+margin-left:5% ;
+margin-right:5% ;
+}
+.ul-section6{
+  list-style: none;
+  line-height: 2;
+}
+.h4-1-section6{
+  padding-top: 20;
+  text-transform: uppercase;
+  font-size: 20;
+}
+.div6-section6{
+  padding-top:20 ;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid  blue;
+margin: 20 auto;
+}
+.h4-2-section6{
+font-size: 30;
+}
+.p-1-section6{
+font-weight: 550;
+}
+.btn-section6{
+ margin-top: 20;
+  font-size: 20;
+  width: 120;
+  height: 30;
+border: 2px solid blue;
+}
+.li-section6{
+  line-height: 2.5;
+  text-transform: capitalize;
+  opacity: 0.8;
+  color: rgb(63, 63, 69);
+  }
+.div5-section6::after{
+content: " ";
+position: absolute;
+width: 100%;
+height: 0;
+top: 0%;
+left: 0;
+background-color: black;
+opacity: 0;
+}
+.div5-section6:hover .div6-section6{
+color:red ;
+}
+.div5-section6:hover::after{
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  transition: 0.8s;
+}
+.div7-section6{
+  text-align: center;
+  width: 500;
+}
+.div8-section6 .img-1-section6{
+  width: 250;
+  height: 250;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.h3-section6{
+  color: blue;
+  text-transform: capitalize;
+  font-size: 26;
+}
+.h5-section6{
+  color: white;
+  text-transform: capitalize;
+  font-size: 18;
+  padding-top: 10;
+}
+.p-2-section6{
+  color: white;
+  padding-top: 15;
+  padding-bottom: 40;
+  text-transform: capitalize;
+width: 70%;
+margin: auto;
+}
+.div-10-section6{
+  width: 100%;
+  height: 600;
+background-image: url(../imges/route-66-desert-with-scenic-sky-classic-vintage-image-with-nobody-frame_521059-5790.webp);
+background-position: center;
+position: relative;
+margin-top: 150;
+}
+.cd-section6{
+position: absolute;
+top: 100;
+right: 0;
+}
+.overley-1-section6{
+height: 100%;
+background-color: black;
+opacity: 0.8;
+}
+.fg-section6{
+  padding-top: 100;
+}
+/* End section6 */
+/* Start section7 */
+.h2-section7{
+  margin-top: 150;
+  margin-left: 44%;
+text-transform: capitalize;
+font-size: 30;
+}
+.div-4-section7{
+  width: 110;
+  height: 5;
+  background-color: blue; 
+  margin-top: 13;
+  margin-left: 46%;
+} 
+.container8{
+  width: 80%;
+  margin: auto;
+}
+.parent-section7{
+overflow: auto;
+}
+.div-1-section7{
+  display: block;
+  float: left;
+  width: 30%;
+  margin-top: 100;
+  text-align: center;
+  border: solid 0.5px;
+  padding-top: 20;
+position: relative;
+background-color:gray;
+}
+.img-section7{
+  width: 320;
+  height: 400;
+}
+.div-2-section7{
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.cd-section7{
+margin-left: 5%;
+margin-right: 5%;
+}
+.div-3-section7{
+  position: absolute;
+  background-color: black;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+ right: 0;
+}
+
+.div-1-section7:hover .div-3-section7{
+  visibility: visible;
+  opacity: 1;
+}
+.div-3-section7 a{
+  display: block;
+  width: 50;
+  height: 50;
+  background-color: blue;
+  color: white;
+  line-height: 40;
+}
+.div-1-section7::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color:black;
+  opacity: 0;
+}
+.div-1-section7:hover::after{
+width: 100%;
+height: 100%;
+transition: 0.8s;
+opacity: 0.8;
+} 
+.h3-section7{
+text-transform: capitalize;
+padding-top: 20;
+}
+.div-1-section7:hover .h3-section7{
+  color: white;
+}
+.p-section7{
+color: blue;
+text-transform: capitalize;
+padding: 15 15;
+}
+/* End section7 */
+/* Start Section8 */
+.h2-section8{
+  margin-top: 150;
+  margin-left: 44%;
+text-transform: capitalize;
+font-size: 30;
+}
+.div-4-section8{
+  width: 160;
+  height: 5;
+  background-color: blue; 
+  margin-top: 13;
+  margin-left: 46%;
+} 
+.container9{
+  width: 80%;
+  margin: auto;
+}
+.parent-section8{
+overflow: auto;
+}
+.div-1-section8{
+  display: block;
+  float: left;
+  width: 30%;
+  margin-top: 100;
+  text-align: center;
+  border: solid 0.5px;
+  padding-top: 20;
+ position: relative;
+}
+.img-section8{
+  width: 320;
+  height: 400;
+}
+.div-2-section8{
+  width: 90%;
+  margin: auto;
+}
+.cd-section8{
+margin-left: 5%;
+margin-right: 5%;
+}
+.div-1-section8::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color:black;
+  opacity: 0;
+}
+.div-1-section8:hover::after{
+width: 100%;
+height: 100%;
+transition: 0.8s;
+opacity: 0.8;
+} 
+.div-3-section8 a{
+  padding-top: 20;
+  padding-left: 15;
+  color: blue;
+}
+.div-1-section8:hover .p-section8{
+  color: red;
+  transition: 0.7s;
+}
+.h3-section8{
+text-transform: capitalize;
+padding-top: 15;
+}
+.p-section8{
+color: gray;
+text-transform: capitalize;
+padding: 15 15;
+}
+.h4-section8{
+  color: blue;
+  padding-bottom: 15;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+.ab-section8{
+  padding-top: 20;
+}
+/* End Section8 */
+/* Start Section9 */
+.parent-section9{
+  margin-top: 50;
+  background-color: gray;
+  width: 100%;
+  height: 400;
+  position: relative;
+}
+.div-1-section9{
+position: absolute;  
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.img-section9{
+  width: 500;
+  height: 300;
+}
+.p-section9{
+  text-transform: capitalize;
+  color: white;
+  padding-top: 10;
+  padding-left: 30;
+}
+.div-3-section9 a{
+  font-size: 50;
+margin-left: 25;
+  color: blue;
+}
+/* End Section9 */
